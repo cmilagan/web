@@ -7,11 +7,71 @@ video {
 }
 
 .display-container {
+    padding-top: 80px;
     height: 100vh;
     width: 100%;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
+}
+
+.display-container > h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.display-container > p {
+    margin-top: 10px;
+    color: whitesmoke;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.display-container > p > span {
+    font-size: inherit;
+    color: orange;
+}
+
+.display-btns {
+    margin-top: 32px;
+}
+
+.display-btns .btn {
+    margin: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .display-container > h1 {
+        text-align: center;
+        color: whitesmoke;
+        font-size: 40px;
+        font-weight: 800;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .display-container > p {
+        margin-top: 10px;
+        color: whitesmoke;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .display-container > p > span {
+        font-size: inherit;
+        color: orange;
+    }
+
+    .btn-mobile {
+        display: block;
+        text-decoration: none;
+    }
+
+    .btn {
+        width: 100%;
+    }
 }

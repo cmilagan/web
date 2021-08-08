@@ -21,15 +21,29 @@ export const Button = ({
         ? buttonSize
         : SIZES[0];
 
-        return (
-            <Link to = '/sign-up' className='btn-mobile'>
-                <button
-                className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-                onClick={onClick}
-                type={type}
-                >
-                    {children}
-                </button>
-            </Link>
-        )
+        if (buttonStyle === STYLES[1]) {
+            return (
+                <Link to = '/about' className='btn-mobile'>
+                    <button
+                    className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+                    onClick={onClick}
+                    type={type}
+                    >
+                        {children}
+                    </button>
+                </Link>
+            )
+        } else {
+            return (
+                <Link to = '/projects' className='btn-mobile'>
+                    <button
+                    className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+                    onClick={onClick}
+                    type={type}
+                    >
+                        {children}
+                    </button>
+                </Link>
+            )
+        }
 };

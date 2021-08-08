@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <Router>
-      <Navbar />
+      <Navbar sticky="top" />
       <Switch>
         <Route path ='/' exact component= {Home} />
       </Switch>
