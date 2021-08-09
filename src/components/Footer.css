@@ -1,0 +1,19 @@
+.footer-container {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #242424;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container > a {
+    padding: 0 1rem;
+}
+
+.footer-container > a:hover {
+    padding: 0 1rem;
+    transform: scale(1.2);
+    transition: all 0.2s ease-in;
+}
+
