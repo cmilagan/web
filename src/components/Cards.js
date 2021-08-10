@@ -1,6 +1,9 @@
 import React from 'react'
 import CardItem from './CardItem'
 import './Cards.css'
+import loopmania from "../images/loopmania.png"
+import web from "../images/personalweb.png"
+import stimpact from "../images/stimpact.jpg"
 
 function Cards() {
     return (
@@ -13,19 +16,19 @@ function Cards() {
                     </ul>
                     <ul className="cards__items">
                         <CardItem 
-                            src="images/loopmania.png"
+                            src={loopmania}
                             text="Videogame created using OOP (java) and JFX"
                             label="Game"
                             path='/projects'
                         />
                         <CardItem 
-                            src="images/personalweb.png"
+                            src={web}
                             text="Personal website created with HTML/CSS/JavaScript (REACT)"
                             label="Website"
                             path='/projects'
                         />
                         <CardItem 
-                            src="images/stimpact.jpg"
+                            src={stimpact}
                             text="Developed a neuralstimulator to be used on animals (C/Python/Kivy)"
                             label="Firmware/Software"
                             path='/projects'

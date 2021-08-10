@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Navbar sticky="top" />
       <Switch>
-        <Route path ='/' exact component= {Home} />
+        <Route path ='/web' exact component= {Home} />
       </Switch>
     </Router>
     </>
