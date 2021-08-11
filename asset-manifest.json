@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/web/static/css/main.a0d44610.chunk.css",
+    "main.js": "/web/static/js/main.e3efd204.chunk.js",
+    "main.js.map": "/web/static/js/main.e3efd204.chunk.js.map",
+    "runtime-main.js": "/web/static/js/runtime-main.ba4dff01.js",
+    "runtime-main.js.map": "/web/static/js/runtime-main.ba4dff01.js.map",
+    "static/js/2.510f9277.chunk.js": "/web/static/js/2.510f9277.chunk.js",
+    "static/js/2.510f9277.chunk.js.map": "/web/static/js/2.510f9277.chunk.js.map",
+    "index.html": "/web/index.html",
+    "static/css/main.a0d44610.chunk.css.map": "/web/static/css/main.a0d44610.chunk.css.map",
+    "static/js/2.510f9277.chunk.js.LICENSE.txt": "/web/static/js/2.510f9277.chunk.js.LICENSE.txt",
+    "static/media/flatpack.1a3f11e7.PNG": "/web/static/media/flatpack.1a3f11e7.PNG",
+    "static/media/flockr.ce739052.png": "/web/static/media/flockr.ce739052.png",
+    "static/media/frontpage.f2d450c9.mp4": "/web/static/media/frontpage.f2d450c9.mp4",
+    "static/media/loopmania.7b457366.PNG": "/web/static/media/loopmania.7b457366.PNG",
+    "static/media/personalweb.f3b7c0d5.PNG": "/web/static/media/personalweb.f3b7c0d5.PNG",
+    "static/media/stimpact.dd30ec8c.jpg": "/web/static/media/stimpact.dd30ec8c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba4dff01.js",
+    "static/js/2.510f9277.chunk.js",
+    "static/css/main.a0d44610.chunk.css",
+    "static/js/main.e3efd204.chunk.js"
+  ]
+}
