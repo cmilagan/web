@@ -12,7 +12,7 @@ function Navbar() {
         <div>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">
+                    <Link to="/web" className="navbar-logo">
                         cmilagan
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
