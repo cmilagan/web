@@ -8,6 +8,7 @@
     position: fixed;
     top: 0px;
     font-size: 1.2rem;
+    box-shadow: 0 8px 8px -4px lightblue;
     z-index: 200;
 }
   
