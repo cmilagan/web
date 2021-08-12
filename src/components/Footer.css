@@ -6,6 +6,7 @@
     background-color: #242424;
     justify-content: center;
     align-items: center;
+    bottom: 0px;
 }
 
 .footer-container > a {
