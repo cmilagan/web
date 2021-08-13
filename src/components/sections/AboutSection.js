@@ -19,7 +19,9 @@ function AboutSection() {
                         </p>
 
                         <p>
-                            Other than academics I engage myself with 
+                            Other than academics I enjoy working out and playing sports such as basketball. I 
+                            am also part of the UNSW security society as a media subcommitee member, and engage myself
+                            with extracurricular programs such as VIP CHALLENG offered by UNSW.
                         </p>
                 </div>
             </div>
