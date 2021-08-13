@@ -1,0 +1,10 @@
+.projects-container {
+    padding-top: 80px;
+    background-color: #eee;
+    height: calc(100vh - 60px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}

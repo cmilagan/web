@@ -1,12 +1,13 @@
 import React from 'react'
+import Footer from '../reusables/Footer'
+import ProjectsSection from '../sections/ProjectsSection'
 
 function Projects() {
     return (
-        <div className="projects">
-            <div className="container">
-                <h1>page coming soon!</h1>
-            </div>
-        </div>
+        <>
+            <ProjectsSection />
+            <Footer />  
+        </>
     )
 }
 
