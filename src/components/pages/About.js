@@ -1,15 +1,13 @@
 import React from 'react'
 import Footer from '../reusables/Footer'
-import './About.css'
+import AboutSection from '../sections/AboutSection'
 
 const About = () => {
     return (
-        <div className="about">
-            <div className="display-container">
-                <h1>Hi i'm Christian!</h1>
-            </div>
-        </div>
-        
+        <>
+            <AboutSection />        
+            <Footer />
+        </>
     )
 }
 
