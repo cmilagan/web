@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from '../Footer'
+import Footer from '../reusables/Footer'
 import myres from '../../images/cmilagan_resume.png'
 import './Resume.css'
 

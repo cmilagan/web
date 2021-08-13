@@ -1,5 +1,5 @@
 import React from 'react'
-import CardItem from '../CardItem'
+import CardItem from '../reusables/CardItem'
 import './Cards.css'
 import loopmania from '../../images/loopmania.PNG'
 import website from '../../images/personalweb.PNG'

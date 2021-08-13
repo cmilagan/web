@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from '../Footer'
+import Footer from '../reusables/Footer'
 import './About.css'
 
 const About = () => {

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../App.css'
-import { Button } from '../Button'
+import { Button } from '../reusables/Button'
 import './DisplaySection.css'
 import { init } from 'ityped'
 import { useEffect, useRef } from "react"
