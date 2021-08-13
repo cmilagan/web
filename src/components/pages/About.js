@@ -1,12 +1,15 @@
 import React from 'react'
+import Footer from '../Footer'
+import './About.css'
 
-function About() {
+const About = () => {
     return (
         <div className="about">
-            <div className="container">
+            <div className="display-container">
                 <h1>Hi i'm Christian!</h1>
             </div>
         </div>
+        
     )
 }
 

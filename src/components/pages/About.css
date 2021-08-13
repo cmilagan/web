@@ -1,0 +1,13 @@
+
+
+.about .display-container {
+    padding-top: 80px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+}
+

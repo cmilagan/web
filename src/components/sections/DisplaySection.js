@@ -1,10 +1,10 @@
 import React from 'react'
-import '../App.css'
-import { Button } from './Button'
+import '../../App.css'
+import { Button } from '../Button'
 import './DisplaySection.css'
 import { init } from 'ityped'
 import { useEffect, useRef } from "react"
-import frontpage from '../videos/frontpage.mp4'
+import frontpage from '../../videos/frontpage.mp4'
 function DisplaySection() {
     const aboutme1 = useRef();
 

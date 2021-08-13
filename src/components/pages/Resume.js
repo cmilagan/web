@@ -9,6 +9,7 @@ const Resume = () => {
             <div className="container">
                 <img src={myres} alt="" />
             </div>
+            <Footer />
         </div>
     )
 }

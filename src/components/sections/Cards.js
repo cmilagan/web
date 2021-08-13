@@ -1,11 +1,11 @@
 import React from 'react'
-import CardItem from './CardItem'
+import CardItem from '../CardItem'
 import './Cards.css'
-import loopmania from '../images/loopmania.PNG'
-import website from '../images/personalweb.PNG'
-import stimpact from '../images/stimpact.jpg'
-import flockr from '../images/flockr.png'
-import flatpack from '../images/flatpack.PNG'
+import loopmania from '../../images/loopmania.PNG'
+import website from '../../images/personalweb.PNG'
+import stimpact from '../../images/stimpact.jpg'
+import flockr from '../../images/flockr.png'
+import flatpack from '../../images/flatpack.PNG'
 
 function Cards() {
     return (
@@ -13,9 +13,6 @@ function Cards() {
             <h1>selected projects</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
-                    <ul className="cards__items1">
-
-                    </ul>
                     <ul className="cards__items">
                         <CardItem 
                             src={loopmania}
