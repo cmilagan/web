@@ -12,40 +12,38 @@ function Cards() {
         <div className="cards">
             <h1>selected projects</h1>
             <div className="cards__container">
-                <div className="cards__wrapper">
-                    <ul className="cards__items">
-                        <CardItem 
-                            src={loopmania}
-                            text="Videogame created using OOP (java) and JFX"
-                            label="Game"
-                            path='/projects'
-                        />
-                        <CardItem 
-                            src={website}
-                            text="Personal website created with HTML/CSS/JavaScript (REACT)"
-                            label="Website"
-                            path='/projects'
-                        />
-                        <CardItem 
-                            src={stimpact}
-                            text="Developed a neuralstimulator to be used on animals (C/Python/Kivy)"
-                            label="Firmware/Software"
-                            path='/projects'
-                        />
-                        <CardItem 
-                            src={flockr}
-                            text="Developed a communication platform similar to slack/discord"
-                            label="Frontend/Backend"
-                            path='/projects'
-                        />
-                        <CardItem 
-                            src={flatpack}
-                            text="Developed modular furniture targeting the problem of waste"
-                            label="Design/Development"
-                            path='/projects'
-                        />
-                    </ul>
-                </div>
+                <ul className="cards__items">
+                    <CardItem 
+                        src={loopmania}
+                        text="Videogame created using OOP (Java) and JFX"
+                        label="Game"
+                        path='/projects'
+                    />
+                    <CardItem 
+                        src={website}
+                        text="Personal website created with HTML/CSS/JavaScript (REACT)"
+                        label="Website"
+                        path='/projects'
+                    />
+                    <CardItem 
+                        src={stimpact}
+                        text="Developed a neuralstimulator to be used on animals (C/Python/Kivy)"
+                        label="Firmware/Software"
+                        path='/projects'
+                    />
+                    <CardItem 
+                        src={flockr}
+                        text="Developed a communication platform similar to slack/discord (Python/Flask)"
+                        label="Frontend/Backend"
+                        path='/projects'
+                    />
+                    <CardItem 
+                        src={flatpack}
+                        text="Developed modular furniture targeting the problem of waste"
+                        label="Design/Development"
+                        path='/projects'
+                    />
+                </ul>
             </div>
         </div>
     )
