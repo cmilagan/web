@@ -10,7 +10,7 @@ import flatpack from '../../images/flatpack.PNG'
 function Cards() {
     return (
         <div className="cards">
-            <h1>selected projects</h1>
+            <h1 className="title">selected projects</h1>
             <div className="cards__container">
                 <ul className="cards__items">
                     <CardItem 
