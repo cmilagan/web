@@ -10,6 +10,7 @@
 
 .footer-container > a {
     padding: 0 1rem;
+    transition: 0.5s;
 }
 
 .footer-container > a:hover {
