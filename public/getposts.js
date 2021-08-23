@@ -26,10 +26,16 @@ const getPosts = async () => {
                         metadata.forEach(line => {
                             obj[line.split(": ")[0]] = line.split(": ")[1]
                         })
-                        console.log(obj)
                         return obj
                     }
                 } 
+
+                const parseContent = ({lines, metadataIndices}) => {
+                    if (metadataIndices.length > 0) {
+                        lines = lines.slice(metadataIndices[1] + 1, lines.length)
+                    }
+                    return lines.join("\n")
+                }
                 
                 // split file into individual strings split by a new line
                 const lines = contents.split("\n")
@@ -39,6 +45,20 @@ const getPosts = async () => {
 
                 // parse lines to get metadata
                 const metadata = parseMetadata({lines, metadataIndices})
+
+                // parse content of blog post 
+                const content = parseContent({lines, metadataIndices})
+
+                // fill in post variable
+                post = {
+                    id: i + 1,
+                    title: metadata.title ? metadata.title : "No title given",
+                    author: metadata.author ? metadata.author : "No author given",
+                    date: metadata.date ? metadata.date : "No date given",
+                    content: content
+                }
+
+                console.log(post)
             })
         })
     })
