@@ -115,7 +115,10 @@ display: none;
         position: absolute;
         top: 0;
         left: 0;
-        transform: translate(25%, 50%);
+    }
+
+    .navbar-logo:hover {
+        transform: scale(0.8);
     }
 
     .menu-icon {
