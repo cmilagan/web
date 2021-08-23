@@ -57,8 +57,8 @@ const getPosts = async () => {
                     date: metadata.date ? metadata.date : "No date given",
                     content: content
                 }
-
-                console.log(post)
+                postlist.push(post)
+                console.log(postlist)
             })
         })
     })
