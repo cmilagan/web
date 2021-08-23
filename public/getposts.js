@@ -4,8 +4,8 @@ const fs = require("fs")
 const dirPath = path.join(__dirname, "../src/components/posts")
 let postlist = []
 
-const getPosts = async () => {
-    await fs.readdir(dirPath, (err, files) => {
+const getPosts = () => {
+    fs.readdir(dirPath, (err, files) => {
         if (err) {
             return console.log("Failed to list contents of directory: " + err)
         }
@@ -58,10 +58,14 @@ const getPosts = async () => {
                     content: content
                 }
                 postlist.push(post)
-                console.log(postlist)
+                if (i === files.length - 1) {
+                    let data = JSON.stringify(postlist)
+                    fs.writeFileSync("src/posts.json", data)
+                }
             })
         })
     })
+    return 
 }
 
 getPosts()
