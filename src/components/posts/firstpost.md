@@ -15,4 +15,4 @@ This is the very first blog post I have made for my personal website. This blog 
 Heres a picture of a dog :D
 
 
-![Dog](images/dog.png)
+![Dog]("../../images/dog.png")
