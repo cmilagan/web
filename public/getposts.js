@@ -65,6 +65,7 @@ const getPosts = () => {
             })
         })
     })
+    postlist.reverse();
     return 
 }
 

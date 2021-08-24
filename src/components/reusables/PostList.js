@@ -3,15 +3,12 @@ import './PostList.css'
 import postlist from "../../posts.json"
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from 'rehype-raw'
-// const parseHtml = htmlParser({
-//     isValidNode: node => false,
-//     // processingInstructions: [/* ... */]
-//   })
+
 
 const PostList = () => {
-    console.log(postlist)
-    // sort by most recent posts
-    postlist.reverse();
+    const excerptList = postlist.map(post => {
+        return post.content.split(" ").slice(0, 40).join(" ")
+    })
     return (
         <div className="postlist">
             <h1 className="title">All Posts</h1>
@@ -22,7 +19,7 @@ const PostList = () => {
                             <h2>{post.title}</h2>
                             <small>Published on {post.date} by {post.author}</small>
                             <hr />
-                            <ReactMarkdown children={post.content} rehypePlugins={[rehypeRaw]} escapeHtml={false}/>
+                            <ReactMarkdown className="content" children={excerptList[i]} rehypePlugins={[rehypeRaw]} escapeHtml={false}/>...
                         </div>
                     )
                 })
