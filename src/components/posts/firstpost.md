@@ -4,10 +4,15 @@ author: Christian Ilagan
 date: August 21, 2021
 ---
 
-## This is a sample post
+## Welcome to my blog!!!
 
-*This is a sample thing.*
+*First of many blog posts*
 
-What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?
+Hello World!
+This is the very first blog post I have made for my personal website. This blog was made using ReactMarkdown to dynamically load markdown files into pages. In this blog I will showcase any updates made to this website as well as any exciting projects I have been working on.
+<hr />
 
-<iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
+Heres a picture of a dog :D
+
+
+![Dog](images/dog.png)

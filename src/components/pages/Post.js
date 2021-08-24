@@ -24,10 +24,12 @@ const Post = (props) => {
     return (
         <>
             <div className="post-container">
-                <h2>{fetchedPost.title}</h2>
-                <small>Published on {fetchedPost.date} by {fetchedPost.author}</small>
-                <hr />
-                <ReactMarkdown children={fetchedPost.content} rehypePlugins={[rehypeRaw]} escapeHtml={false} />
+                <div className="post">
+                    <h2>{fetchedPost.title}</h2>
+                    <small>Published on {fetchedPost.date} by {fetchedPost.author}</small>
+                    <hr />
+                    <ReactMarkdown children={fetchedPost.content} rehypePlugins={[rehypeRaw]} escapeHtml={false} />
+                </div>
             </div>
             <Footer />
         </>
