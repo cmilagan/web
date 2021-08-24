@@ -49,9 +49,13 @@ const getPosts = () => {
                 // parse content of blog post 
                 const content = parseContent({lines, metadataIndices})
 
+                const date = new Date(metadata.date)
+
+                const timestamp = date.getTime() / 1000
+
                 // fill in post variable
                 post = {
-                    id: i + 1,
+                    id: timestamp,
                     title: metadata.title ? metadata.title : "No title given",
                     author: metadata.author ? metadata.author : "No author given",
                     date: metadata.date ? metadata.date : "No date given",
@@ -59,13 +63,15 @@ const getPosts = () => {
                 }
                 postlist.push(post)
                 if (i === files.length - 1) {
-                    let data = JSON.stringify(postlist)
+                    const sortedList = postlist.sort((a,b) => {
+                        return a.id < b.id ? 1 : -1
+                    })
+                    let data = JSON.stringify(sortedList)
                     fs.writeFileSync("src/posts.json", data)
                 }
             })
         })
     })
-    postlist.reverse();
     return 
 }
 
