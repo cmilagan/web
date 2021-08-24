@@ -23,7 +23,7 @@ export const Button = ({
 
         if (buttonStyle === STYLES[1]) {
             return (
-                <Link to = '/about' className='btn-mobile'>
+                <Link to = '/web/about' className='btn-mobile'>
                     <button
                     className={`btn ${checkButtonStyle} ${checkButtonSize}`}
                     onClick={onClick}
@@ -35,7 +35,7 @@ export const Button = ({
             )
         } else {
             return (
-                <Link to = '/projects' className='btn-mobile'>
+                <Link to = '/web/projects' className='btn-mobile'>
                     <button
                     className={`btn ${checkButtonStyle} ${checkButtonSize}`}
                     onClick={onClick}
