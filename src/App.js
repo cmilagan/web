@@ -6,6 +6,8 @@ import Resume from './components/pages/Resume';
 import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Blog from './components/pages/Blog';
+import Post from './components/pages/Post';
+import NotFound from './components/pages/NotFound';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path ='/resume' exact component={Resume} />
         <Route path ='/about' exact component={About} />
         <Route path ='/projects' exact component={Projects} />
+        <Route path ='/post/:id' render={props => <Post {...props} />} />
+        <Route path ='/404' exact component={NotFound} />
       </Switch>
     </Router>
     </>
