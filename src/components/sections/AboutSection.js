@@ -17,7 +17,7 @@ function AboutSection() {
 
                         <p>
                             I'm currently in my penultimate year of Computer Science at UNSW. Throughout my
-                            career thus far, I have found my self to be extremely interested in web and 
+                            time studying and pursuing projects, I have found my self to be extremely interested in web and 
                             game development.
 
                             Other than academics I enjoy working out and playing sports such as basketball. I 
