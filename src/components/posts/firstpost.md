@@ -14,5 +14,8 @@ This is the very first blog post I have made for my personal website. This blog 
 
 Heres a picture of a dog :D
 
-
-![Dog](../../images/dog.png)
+<img src="https://raw.githubusercontent.com/cmilagan/web/ed73bebb80d213cf7d88649926c838857f726c8b/src/images/dog.png"
+     alt=""
+     width="300"
+     height="300"
+     style="float: left; margin-right: 10px;" />
