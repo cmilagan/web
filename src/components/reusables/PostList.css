@@ -14,6 +14,12 @@
     text-align: center;
 }
 
+
+.openpage {
+    text-decoration: none;
+    color: black;
+}
+
 .post-card {
     text-align: left;
     margin-bottom: 20px;
@@ -23,6 +29,7 @@
     box-shadow: 0 8px 8px -4px lightgrey;
     padding: 10px 20px;
     transition: 0.5s;
+    text-decoration: none;
 }
 
 .post-card:hover {
