@@ -15,7 +15,7 @@ const PostList = () => {
             {postlist.length &&
                 postlist.map((post, i) => {
                     return (
-                        <Link className="openpage" to={`/post/${post.id}`}>
+                        <Link className="openpage" to={`/web/post/${post.id}`}>
                             <div key={i} className="post-card">
                                 <h2>{post.title}</h2>
                                 <small>Published on {post.date} by {post.author}</small>

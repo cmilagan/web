@@ -16,12 +16,12 @@ function App() {
       <Navbar sticky="top" />
       <Switch>
         <Route path ='/web' exact component= {Home} />
-        <Route path ='/blog' exact component= {Blog} />
-        <Route path ='/resume' exact component={Resume} />
-        <Route path ='/about' exact component={About} />
-        <Route path ='/projects' exact component={Projects} />
-        <Route path ='/post/:id' render={props => <Post {...props} />} />
-        <Route path ='/404' exact component={NotFound} />
+        <Route path ='/web/blog' exact component= {Blog} />
+        <Route path ='/web/resume' exact component={Resume} />
+        <Route path ='/web/about' exact component={About} />
+        <Route path ='/web/projects' exact component={Projects} />
+        <Route path ='/web/post/:id' render={props => <Post {...props} />} />
+        <Route path ='/web/404' exact component={NotFound} />
       </Switch>
     </Router>
     </>
