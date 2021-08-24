@@ -53,10 +53,10 @@ This project has opened my eyes to the possibilities of programming, Through uti
 *Game interface*
 
 
-<img src="https://raw.githubusercontent.com/cmilagan/web/80ec2ea4bd01e4297382471a2bb18c2bcd966bbf/src/images/personalweb.PNG"
+<img src="https://raw.githubusercontent.com/cmilagan/web/4320b2d94336fb36dfadc4608d82be2898d28ffd/src/images/loopmaniagame.PNG"
      alt=""
-     width="500"
-     height="300"
+     width="300"
+     height="500"
      style="float: left; margin-right: 10px;" />
 
 <br />
