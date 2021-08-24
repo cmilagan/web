@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/web/static/css/main.a16d4780.chunk.css",
-    "main.js": "/web/static/js/main.aa58f538.chunk.js",
-    "main.js.map": "/web/static/js/main.aa58f538.chunk.js.map",
+    "main.css": "/web/static/css/main.6117e287.chunk.css",
+    "main.js": "/web/static/js/main.21b29268.chunk.js",
+    "main.js.map": "/web/static/js/main.21b29268.chunk.js.map",
     "runtime-main.js": "/web/static/js/runtime-main.ba4dff01.js",
     "runtime-main.js.map": "/web/static/js/runtime-main.ba4dff01.js.map",
     "static/js/2.e8a87c58.chunk.js": "/web/static/js/2.e8a87c58.chunk.js",
     "static/js/2.e8a87c58.chunk.js.map": "/web/static/js/2.e8a87c58.chunk.js.map",
     "index.html": "/web/index.html",
-    "static/css/main.a16d4780.chunk.css.map": "/web/static/css/main.a16d4780.chunk.css.map",
+    "static/css/main.6117e287.chunk.css.map": "/web/static/css/main.6117e287.chunk.css.map",
     "static/js/2.e8a87c58.chunk.js.LICENSE.txt": "/web/static/js/2.e8a87c58.chunk.js.LICENSE.txt",
     "static/media/cmilagan_resume.75489999.png": "/web/static/media/cmilagan_resume.75489999.png",
     "static/media/flatpack.1a3f11e7.PNG": "/web/static/media/flatpack.1a3f11e7.PNG",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.ba4dff01.js",
     "static/js/2.e8a87c58.chunk.js",
-    "static/css/main.a16d4780.chunk.css",
-    "static/js/main.aa58f538.chunk.js"
+    "static/css/main.6117e287.chunk.css",
+    "static/js/main.21b29268.chunk.js"
   ]
 }
