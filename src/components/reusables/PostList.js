@@ -7,7 +7,7 @@ import rehypeRaw from 'rehype-raw'
 
 const PostList = () => {
     const excerptList = postlist.map(post => {
-        return post.content.split(" ").slice(0, 20).join(" ")
+        return post.content.split(" ").slice(0, 30).join(" ")
     })
     return (
         <div className="postlist">
@@ -19,7 +19,9 @@ const PostList = () => {
                             <h2>{post.title}</h2>
                             <small>Published on {post.date} by {post.author}</small>
                             <hr />
-                            <ReactMarkdown className="content" children={excerptList[i]} rehypePlugins={[rehypeRaw]} escapeHtml={false}/>
+                            <p>
+                                <ReactMarkdown className="content" children={excerptList[i]} rehypePlugins={[rehypeRaw]} escapeHtml={false}/>
+                            </p>
                             <small>Read more...</small>
                         </div>
                     )
