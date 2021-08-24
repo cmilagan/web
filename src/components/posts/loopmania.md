@@ -33,9 +33,14 @@ From the beginning of the project, It was important to first design a UML diagra
 
 <br />
 
+<hr />
+
 
 
 It was important to be extremely organised such that the project could be finished within the 8 week timeframe which was allocated, as such we operated in an agile approach, utilising test driven development to quickly but effectively complete the project. The use of Git practices vastly increased the productivity of our group as we had branched out and communicated effectively to make sure that no errors were made.
+
+
+
 <br />
 
 <hr />
