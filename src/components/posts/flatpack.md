@@ -1,7 +1,7 @@
 ---
 title: Modular FlatPack
 author: Christian Ilagan
-date: August 24, 2021
+date: August 25, 2021
 ---
 
 ## Modular FlatPack (MDP)
@@ -33,7 +33,16 @@ This project was made by following the practices and principles of design and de
 
 
 
-This project required us to operate in an agile approach, utilising test driven development to quickly but effectively complete the project. We also used Git as a way to contribute to our code base simultaneously branching off the master branch and merging back in. Weekly standups were used as a way to update each group member on any progress or challenges made.
+This project required alot of planning and consistency throughout the one year timeframe to complete. As such I had created a time line to complete certain aspects of the project.
+<br />
+
+
+*Time plan*
+<img src="https://raw.githubusercontent.com/cmilagan/web/0f2955858e33362e280da020bbb0b4526d17adbf/src/images/timeplan.PNG"
+     alt=""
+     width="100%"
+     height="25%"
+     style="float: left; margin-right: 10px;" />
 
 
 
@@ -43,10 +52,9 @@ This project required us to operate in an agile approach, utilising test driven 
 
 
 #### Reflection:
-Through completion of this project I have experienced working an an agile development cycle, Following TDD, I now understand how majority of projects are made and progress. Reflecting on this project I believe one of the most valuable things that I learnt was practicing Git.
+Completion of this project has allowed me to appreciate how much effort and consideration goes into designing a product that targets both a problem and is usable by people. Reflecting on the whole process of developing this product has made me proud, comparing the initial sketches to the final design product really shows how much progress can be made in terms of skill in just a year.
 
 
-*Game interface*
 
 
 <br />
@@ -56,4 +64,4 @@ Through completion of this project I have experienced working an an agile develo
 
 
 #### Next steps:
-Learning from this experience, I want to work more with backend content and API's, Potentially looking into developing a platform to showcase an NBA API.
+Following a similar design process, I want to create a software product, something that solves a problem and can be easily used by people.
