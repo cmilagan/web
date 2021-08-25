@@ -28,7 +28,7 @@ From the beginning of the project, It was important to first design a UML diagra
 <img src="https://raw.githubusercontent.com/cmilagan/web/80ec2ea4bd01e4297382471a2bb18c2bcd966bbf/src/images/loopmania.PNG"
      alt=""
      width="100%"
-     height="500"
+     height="25%"
      style="float: left; margin-right: 10px;" />
 
 <br />

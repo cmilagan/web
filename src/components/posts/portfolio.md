@@ -28,8 +28,8 @@ Self-teaching myself HTML/CSS/JavaScript has been both rewarding and challenging
 
 <img src="https://raw.githubusercontent.com/cmilagan/web/80ec2ea4bd01e4297382471a2bb18c2bcd966bbf/src/images/personalweb.PNG"
      alt=""
-     width="500"
-     height="300"
+     width="100%"
+     height="25%"
      style="float: left; margin-right: 10px;" />
 
 <br />

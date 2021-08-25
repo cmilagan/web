@@ -50,9 +50,6 @@ This project required us to operate in an agile approach, utilising test driven 
 Through completion of this project I have experienced working an an agile development cycle, Following TDD, I now understand how majority of projects are made and progress. Reflecting on this project I believe one of the most valuable things that I learnt was practicing Git.
 
 
-*Game interface*
-
-
 <br />
 
 <hr />
