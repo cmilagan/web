@@ -11,7 +11,7 @@ date: August 22, 2021
 
 #### Significance:
 This website was created as a platform to showcase who I am as a developer. Highlighting my favourite projects, courses
-and experiences as both a student and aspiring software engineer. Countless of hours has gone into making this website, with a basic understanding of HTML/CSS/JavaScript I had faced many challenges on the way. This website is my first completed project with JavaScript/REACT, where previously I had faced to many hurdles and decided to restart multiple times. As such I feel as though it will always be a project I am proud of.
+and experiences as both a student and aspiring software engineer. Countless of hours has gone into making this website, with a basic understanding of HTML/CSS/JavaScript I had faced many challenges on the way. This website is my first completed project with JavaScript/REACT, where previously I had faced too many hurdles and decided to restart multiple times. As such I feel as though it will always be a project I am proud of.
 
 
 <br />

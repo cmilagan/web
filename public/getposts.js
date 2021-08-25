@@ -61,7 +61,9 @@ const getPosts = () => {
                     date: metadata.date ? metadata.date : "No date given",
                     content: content
                 }
+
                 postlist.push(post)
+                
                 if (i === files.length - 1) {
                     const sortedList = postlist.sort((a,b) => {
                         return a.id < b.id ? 1 : -1
