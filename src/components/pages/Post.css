@@ -22,3 +22,10 @@
 .post img {
     justify-content: center;
 }
+
+
+@media screen and (max-width: 768px) {
+    .post-container {
+        width: 85%;
+    }
+}

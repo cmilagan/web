@@ -1,0 +1,12 @@
+.projects__container {
+    display: flex;
+    width: 95%;
+}
+
+.projects__items {
+    list-style: none;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    display: block;
+    justify-content: center;
+}

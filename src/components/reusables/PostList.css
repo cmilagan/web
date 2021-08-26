@@ -53,3 +53,9 @@
     font-style: normal;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+@media screen and (max-width: 768px) {
+    .postlist {
+        width: 85%;
+    }
+}
