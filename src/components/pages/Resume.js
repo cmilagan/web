@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from '../reusables/Footer'
-import myres from '../../images/cmilagan_resume.png'
+import myres from '../../images/cmilagan_resume_png.png'
 import './Resume.css'
 
 const Resume = () => {
