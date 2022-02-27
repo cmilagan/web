@@ -15,8 +15,8 @@ function App() {
     <Router>
       <Navbar sticky="top" />
       <Switch>
-        <Route path ='/' exact component= {Home} />
-        <Route path ='/blog' exact component= {Blog} />
+        <Route path ='/' exact component={Home} />
+        <Route path ='/blog' exact component={Blog} />
         <Route path ='/resume' exact component={Resume} />
         <Route path ='/about' exact component={About} />
         <Route path ='/projects' exact component={Projects} />

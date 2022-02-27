@@ -1,12 +1,10 @@
-.projects__container {
+.projects_page_container {
+    width: 90vw;
     display: flex;
-    width: 95%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.projects__items {
-    list-style: none;
-    margin-bottom: 24px;
-    flex-wrap: wrap;
-    display: block;
-    justify-content: center;
+.projects_page_container * {
+    /* margin-bottom: 10%; */
 }

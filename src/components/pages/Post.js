@@ -2,14 +2,15 @@ import React from 'react'
 import './Post.css'
 import Footer from '../reusables/Footer'
 import postlist from "../../posts.json"
-import { Redirect } from "react-router-dom"
+import { useHistory } from "react-router-dom"
 import ReactMarkdown from 'react-markdown'
 import rehypeRaw from 'rehype-raw'
 
 const Post = (props) => {
+    const history = useHistory()
     const validId = parseInt(props.match.params.id)
     if (!validId) {
-        return <Redirect to="/404" />
+        return history.push('/404')
     }
     const fetchedPost = {}
     postlist.forEach((post, i) => {
