@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/web/static/css/main.3058768b.chunk.css",
-    "main.js": "/web/static/js/main.a72ec2ea.chunk.js",
-    "main.js.map": "/web/static/js/main.a72ec2ea.chunk.js.map",
+    "main.js": "/web/static/js/main.696bee70.chunk.js",
+    "main.js.map": "/web/static/js/main.696bee70.chunk.js.map",
     "runtime-main.js": "/web/static/js/runtime-main.cb73a352.js",
     "runtime-main.js.map": "/web/static/js/runtime-main.cb73a352.js.map",
     "static/js/2.7cacd398.chunk.js": "/web/static/js/2.7cacd398.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/web/index.html",
     "static/css/main.3058768b.chunk.css.map": "/web/static/css/main.3058768b.chunk.css.map",
     "static/js/2.7cacd398.chunk.js.LICENSE.txt": "/web/static/js/2.7cacd398.chunk.js.LICENSE.txt",
-    "static/media/cmilagan_resume.75489999.png": "/web/static/media/cmilagan_resume.75489999.png",
+    "static/media/cmilagan_resume_png.f1af0874.png": "/web/static/media/cmilagan_resume_png.f1af0874.png",
     "static/media/flatpack.1a3f11e7.PNG": "/web/static/media/flatpack.1a3f11e7.PNG",
     "static/media/flockr.ce739052.png": "/web/static/media/flockr.ce739052.png",
     "static/media/frontpage.f2d450c9.mp4": "/web/static/media/frontpage.f2d450c9.mp4",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.cb73a352.js",
     "static/js/2.7cacd398.chunk.js",
     "static/css/main.3058768b.chunk.css",
-    "static/js/main.a72ec2ea.chunk.js"
+    "static/js/main.696bee70.chunk.js"
   ]
 }
